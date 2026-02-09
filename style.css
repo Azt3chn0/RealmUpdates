@@ -1,0 +1,52 @@
+body{
+    background-color: black;
+}
+#title{
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-shadow: 0 0 20px #9aff9a;
+    font-size: 5em;
+    font-family: 'Press Start 2P', monospace;
+}
+#horizontal{
+    height: 2px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: all 1s ease;
+}
+#box{
+    position: absolute;
+    width: 2000px;
+    height: 1200px;
+    top: 21%;
+    left: 0%;
+}
+#update{
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    font-size: xx-large;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    transition: all 1s ease;
+    letter-spacing: -0.1em;
+    font-family: 'Press Start 2P', monospace;
+}
+#box:hover #update{
+    text-shadow: 0 0 10px #9aff9a;
+    color: white;
+    letter-spacing: normal;
+}
+#box:hover #horizontal{
+    background-color: white;
+    box-shadow: 0 0 10px white;
+}
+#img{
+    position: absolute;
+    width: 40px;
+    height: auto;
+    left: 0%;
+    top: 96%;
+
+}
